@@ -1,0 +1,24 @@
+/* Place these styles at the bottom of your App.css */
+
+.post-card .username {
+  font-weight: bold;
+  color: #1da1f2;
+}
+
+.post-card .content {
+  margin-top: 15px;
+  color: #333;
+  line-height: 1.5;
+}
+
+<!-- Place this JSX inside your component's return statement -->
+
+<div class="container">
+  <h1>Social Posts</h1>
+  <div class="cards">
+    <div class="card post-card">
+      <div class="username">@john_dev</div>
+      <div class="content">Just built my first React application!</div>
+    </div>
+  </div>
+</div>

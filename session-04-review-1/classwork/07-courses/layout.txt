@@ -1,0 +1,24 @@
+/* Place these styles at the bottom of your App.css */
+
+.course-card .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.course-card .instructor {
+  color: #666;
+  margin-top: 10px;
+}
+
+<!-- Place this JSX inside your component's return statement -->
+
+<div class="container">
+  <h1>Courses</h1>
+  <div class="cards">
+    <div class="card course-card">
+      <div class="title">React for Beginners</div>
+      <div class="instructor">By Sarah Johnson</div>
+    </div>
+  </div>
+</div>

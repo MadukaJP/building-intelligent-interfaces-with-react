@@ -1,0 +1,24 @@
+/* Place these styles at the bottom of your App.css */
+
+.movie-card .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.movie-card .genre-year {
+  color: #666;
+  margin-top: 5px;
+}
+
+<!-- Place this JSX inside your component's return statement -->
+
+<div class="container">
+  <h1>Movies</h1>
+  <div class="cards">
+    <div class="card movie-card">
+      <div class="title">The Dark Knight</div>
+      <div class="genre-year">Action • 2008</div>
+    </div>
+  </div>
+</div>

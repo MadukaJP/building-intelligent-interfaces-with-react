@@ -1,0 +1,33 @@
+/* Place these styles at the bottom of your App.css */
+
+.employee-card .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #3498db;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.employee-card .name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+<!-- Place this JSX inside your component's return statement -->
+
+<div class="container">
+  <h1>Employees</h1>
+  <div class="cards">
+    <div class="card employee-card">
+      <div class="avatar">AJ</div>
+      <div class="name">Alex Johnson</div>
+    </div>
+  </div>
+</div>

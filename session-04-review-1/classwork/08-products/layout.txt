@@ -1,0 +1,26 @@
+/* Place these styles at the bottom of your App.css */
+
+.product-card .name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-card .price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 10px;
+}
+
+<!-- Place this JSX inside your component's return statement -->
+
+<div class="container">
+  <h1>Products</h1>
+  <div class="cards">
+    <div class="card product-card">
+      <div class="name">MacBook Air</div>
+      <div class="price">₦1,200,000</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+/* Place these styles at the bottom of your App.css */
+
+.todo-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.todo-card .checkbox {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #3498db;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.todo-card .title {
+  font-size: 1rem;
+  color: #333;
+}
+
+<!-- Place this JSX inside your component's return statement -->
+
+<div class="container">
+  <h1>Todos</h1>
+  <div class="cards">
+    <div class="card todo-card">
+      <div class="checkbox"></div>
+      <div class="title">Learn JSX</div>
+    </div>
+  </div>
+</div>

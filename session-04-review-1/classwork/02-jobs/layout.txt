@@ -1,0 +1,24 @@
+/* Place these styles at the bottom of your App.css */
+
+.job-card .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.job-card .company {
+  color: #666;
+  margin-top: 5px;
+}
+
+<!-- Place this JSX inside your component's return statement -->
+
+<div class="container">
+  <h1>Jobs</h1>
+  <div class="cards">
+    <div class="card job-card">
+      <div class="title">Frontend Developer</div>
+      <div class="company">TechNova</div>
+    </div>
+  </div>
+</div>
