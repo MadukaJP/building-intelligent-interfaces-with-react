@@ -1,0 +1,83 @@
+/* Session 5 starter CSS — previous rules + cart badge + button styling
+   for the new "Add to cart" interaction. */
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: system-ui, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+}
+
+.cart-badge {
+  background: #ff5a1f;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px;
+}
+
+.product-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.product-image-placeholder {
+  height: 120px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-name {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: #111;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #555;
+  margin: 0 0 10px;
+}
+
+.product-card button {
+  width: 100%;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 0;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background: #ff5a1f;
+}
