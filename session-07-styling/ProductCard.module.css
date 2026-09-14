@@ -1,0 +1,12 @@
+/* Optional stretch example for Session 7 — CSS Modules.
+   Not required for the course; shown only if time allows, to demonstrate
+   scoped class names. Usage: import styles from "./ProductCard.module.css"
+   then className={styles.card} */
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
